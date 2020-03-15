@@ -20,8 +20,9 @@ class Navbar extends React.Component {
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
-                           <li className={this.getNavLinkClass("/")}><NavLink to="/" >Listar</NavLink></li>
-                           <li className={this.getNavLinkClass("/agregar")}><NavLink to="/agregar">Agregar</NavLink></li>
+                           <li className={this.getNavLinkClass("/")}><NavLink to="/" >Inicio</NavLink></li>
+                           <li className={this.getNavLinkClass("/diagnostico")}><NavLink to="/diagnostico">Diagnostico</NavLink></li>
+                           <li className={this.getNavLinkClass("/about")}><NavLink to="/about">Acerca de </NavLink></li>
                         </ul>
                     </div>
                 </div>
