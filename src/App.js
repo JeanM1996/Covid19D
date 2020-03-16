@@ -11,8 +11,11 @@ import logo from './logokbs.png'
 
 
 class App extends Component {
+  
   render() {
+    
     return (
+      
       <BrowserRouter>
       <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -44,6 +47,8 @@ class App extends Component {
         <Route path="/about" component={About} />
   
     </BrowserRouter>
+    
     )
   }
+  
 }export default App;
