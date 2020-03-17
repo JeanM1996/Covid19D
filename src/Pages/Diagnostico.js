@@ -1,14 +1,14 @@
 import React from "react";
 import "./Home.css";
 import { UserForm } from '../Components/UserForm';
-
+import Example from '../Components/formval/Example'
 const Diagnostico = () => (
 
 
   
   <div className="Home">
   <div className="lander">
-        <UserForm />
+        <Example />
   </div>
  
 </div>
