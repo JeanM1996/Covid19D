@@ -1,14 +1,15 @@
 import React from "react";
 import "./Home.css";
 import { UserForm } from '../Components/UserForm';
-import Example from '../Components/formval/Example'
+import Wizard from '../Components/DiagnosticForm'
+
 const Diagnostico = () => (
 
 
   
   <div className="Home">
   <div className="lander">
-        <Example />
+       < Wizard/> 
   </div>
  
 </div>

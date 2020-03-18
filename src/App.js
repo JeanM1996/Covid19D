@@ -7,8 +7,11 @@ import { BrowserRouter } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from './logokbs.png'
+import theme from './theme';
 
-
+import {
+  ThemeProvider
+} from '@chakra-ui/core';
 
 class App extends Component {
   
@@ -17,6 +20,7 @@ class App extends Component {
     return (
       
       <BrowserRouter>
+      <ThemeProvider theme={theme}>
       <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="/">
@@ -27,16 +31,16 @@ class App extends Component {
         height="35"
         className="d-inline-block align-top"
       />{''}
-      App Name
+      Covid19-Ecuador
     </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="/diagnostico">¿Estoy Contagiado?</Nav.Link>
+            <Nav.Link href="/diagnostico">Encuesta</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Another Link</Nav.Link>
+            <Nav.Link href="#deets">TelegramBot</Nav.Link>
             <Nav.Link href="/about">Acerca De</Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -45,7 +49,7 @@ class App extends Component {
       <Route exact path="/" component={Home} />
         <Route path="/diagnostico" component={Diagnostico} />
         <Route path="/about" component={About} />
-  
+        </ThemeProvider>
     </BrowserRouter>
     
     )
