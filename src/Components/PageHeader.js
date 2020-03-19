@@ -29,7 +29,6 @@ export const PageHeader = ({ children, onReset, githubPath }) => {
       </Heading>
       
       <p d="flex" alignItems="center" >Ingrese la información requerida </p>
-      <p d="flex" alignItems="center">Será confindencial</p>
     </Box>
   );
 };

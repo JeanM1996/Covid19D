@@ -21,9 +21,8 @@ const Home = () => (
     </LinkContainer>
 
     <h5 className="where">Desarrollado en Loja,Ecuador</h5>
-    <h6>Knowledge Based Research Group</h6>
+    <h6>Knowledge Based system Research Group</h6>
     <h6>Universidad Técnica Particular de Loja|UTPL</h6>
-    <p>Developed By Jean Paul Mosquera </p>
   </div>
  
 </div>
