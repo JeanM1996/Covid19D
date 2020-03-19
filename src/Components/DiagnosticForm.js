@@ -165,48 +165,64 @@ export const Wizard = () => {
               ]}
                 options={[
                   {
-                    value: 'Congestion Nasal',
-                    label: 'Congestion Nasal',
-                  },
-                  {
-                    value: 'Dificultad para respirar',
-                    label: 'Dificultad para respirar',
-                  },
-                  {
-                    value: 'Dolor de garganta',
-                    label: 'Dolor de garganta',
-                  },
-                  {
-                    value: 'Dolor de músculos',
-                    label: 'Dolor de músculos',
-                  },
-                  {
-                    value: 'Escalofrio',
-                    label: 'Escalofrio',
-                  },
-                  {
-                    value: 'Fatiga',
-                    label: 'Fatiga',
-                  },
-                  {
                     value: 'Fiebre',
                     label: 'Fiebre',
-                  },
-                  {
-                    value: 'Flema',
-                    label: 'Flema',
-                  },
-                  {
-                    value: 'Malestar',
-                    label: 'Malestar',
                   },
                   {
                     value: 'Tos',
                     label: 'Tos',
                   },
                   {
-                    value: 'Mucosidad',
-                    label: 'Mucosidad',
+                    value: 'Mucosidad o Moco',
+                    label: 'Mucosidad o Moco',
+                  },
+                  {
+                    value: 'Congestión Nasal',
+                    label: 'Congestión Nasal',
+                  },
+                  {
+                    value: 'Estornudos',
+                    label: 'Estornudos',
+                  },
+                  {
+                    value: 'Dolor de garganta',
+                    label: 'Dolor de garganta',
+                  },
+                  {
+                    value: 'Malestar en la garganta',
+                    label: 'Malestar en la garganta',
+                  },
+                  {
+                    value: 'Dificultad para respirar',
+                    label: 'Dificultad para respirar',
+                  },
+                  {
+                    value: 'Flema',
+                    label: 'Flema',
+                  },
+                  {
+                    value: 'Vomito',
+                    label: 'Vomito',
+                  },
+                  {
+                    value: 'Diarrea',
+                    label: 'Diarrea',
+                  },
+                  {
+                    value: 'Cansancio/Debilidad',
+                    label: 'Cansancio/Debilidad',
+                  },
+                  {
+                    value: 'Dolor de huesos',
+                    label: 'Dolor de huesos',
+                  },
+                  {
+                    value: 'Dolor de cabeza',
+                    label: 'Dolor de cabeza',
+                  },
+                  {
+                    value: 'Dolor muscular',
+                    label: 'Dolor muscular',
                   },
                 ]}
               />
